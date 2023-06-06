@@ -1,0 +1,20 @@
+.w3c-img {
+    display: block;
+    background-image: url(/mission-01/images/validationIcon2.png);
+    background-repeat: no-repeat;
+    background-position: 16px 17px ;
+    background-size: 16px 17px;
+    padding: 8px 8px 8px 16px;
+    background-color: #CCCCCC;
+    border-radius: 34px;
+    width: 250px;
+    height: 37px;
+    margin-bottom: 12px;
+  }
+
+  a { 
+    text-decoration-line: none;
+    color: black;
+    line-height: 37px;
+    padding-left: 20px; 
+  }
