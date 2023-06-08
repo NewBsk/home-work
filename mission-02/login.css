@@ -27,7 +27,6 @@ h1 {
 }
 
 .fixText {
-    display: inline-block;
     width: 56px;
     height: 21px;
     padding-top: 1.5px;
@@ -56,6 +55,7 @@ h1 {
     width: 50px;
     height: 53px;
     border-radius: 5px;
+    position: absolute;
 }
 
 .aLink { 
@@ -77,4 +77,10 @@ h1 {
 
 .find {
     color: #181818;
+}
+
+.idForm {
+    position: relative;
+    width: 157px;
+    height: 52px;
 }
