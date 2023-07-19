@@ -1,0 +1,56 @@
+/* 공통부분 */
+* {
+    font-size: 14px;
+    margin: 0;
+}
+
+.container {
+    margin: 40px;
+    width: 480px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto;
+    gap: 1px;
+}
+
+/* 부분영역 */
+
+.news {
+    color: #ed552f;
+    font-weight: 700;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.more {
+    position: relative;
+    color: #181818;
+    text-decoration: none;
+    text-align: center;
+    grid-area: 1 / 9 / 2 / 11;
+
+}
+
+.imgCaption {
+    grid-area: 3 / 1 / 6 / 4;
+}
+
+.date {
+    margin-top: 4px;
+    margin-bottom: 12px;
+    grid-area: 4 / 4 / 5 / 11;
+}
+
+.explain {
+    text-align: justify;
+    grid-area: 5 / 4 / 6 / 10;
+}
+
+.renewal {
+    grid-area: 3 / 4 / 4 / 11;
+}
+
+.caption {
+    margin-top: 0px;
+    text-align: center;
+}
+
